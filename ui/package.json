@@ -17,7 +17,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "export DANGEROUSLY_DISABLE_HOST_CHECK=true && react-scripts start --ignore client",
+    "start": "set DANGEROUSLY_DISABLE_HOST_CHECK=true && react-scripts start --ignore client",
     "server": "node server.js",
     "start:react": "react-scripts start",
     "build": "react-scripts build",
